@@ -9,20 +9,12 @@ of Innsbruck between September 2024 and March 2025.
 A live demo is available (as of March 2025) at
 <https://latexmt-informatik.uibk.ac.at/>
 
-## Contents
-
-| Repository | Description                                                |
-| ---------- | ---------------------------------------------------------- |
-| core/      | Core functionality of LaTeXMT                              |
-| cli/       | Command-line Interface for LaTeXMT                         |
-| web/       | Web Interface for LaTeXMT                                  |
-
 ## Installation
 
 LaTeXMT is written entirely in Python 3 (>= 3.10). Each of the repositories
-[latexmt-core](https://github.com/latexmt/core),
-[latexmt-cli](https://github.com/latexmt/cli) and
-[latexmt-web](https://github.com/latexmt/web) contains a Python package, with
+[core](https://github.com/latexmt/core),
+[cli](https://github.com/latexmt/cli) and
+[web](https://github.com/latexmt/web) contains a Python package, with
 the latter two depending on `core/`. These modules can be installed using
 `pip`:
 

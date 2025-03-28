@@ -20,7 +20,7 @@ the latter two depending on `core/`. These modules can be installed using
 
 ```sh
 pip install \
-    'git+https://github.com/latexmt/core.git#egg=latexmt-core[opus]' \
+    'git+https://github.com/latexmt/core.git#egg=latexmt-core[deepl,openai]' \
     'git+https://github.com/latexmt/cli.git' \
     'git+https://github.com/latexmt/web.git'
 ```
